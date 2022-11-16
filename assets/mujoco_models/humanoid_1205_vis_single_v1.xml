@@ -143,4 +143,58 @@
       </body>
     </body>
   </worldbody>
+    <actuator>
+    <motor gear="1" joint="Spine_x" name="Spine_x"/>
+    <motor gear="1" joint="Spine_y" name="Spine_y"/>
+    <motor gear="1" joint="Spine_z" name="Spine_z"/>
+    <motor gear="1" joint="Spine1_x" name="Spine1_x"/>
+    <motor gear="1" joint="Spine1_y" name="Spine1_y"/>
+    <motor gear="1" joint="Spine1_z" name="Spine1_z"/>
+    <motor gear="1" joint="Spine2_x" name="Spine2_x"/>
+    <motor gear="1" joint="Spine2_y" name="Spine2_y"/>
+    <motor gear="1" joint="Spine2_z" name="Spine2_z"/>
+    <motor gear="1" joint="Spine3_x" name="Spine3_x"/>
+    <motor gear="1" joint="Spine3_y" name="Spine3_y"/>
+    <motor gear="1" joint="Spine3_z" name="Spine3_z"/>
+    <motor gear="1" joint="Neck_x" name="Neck_x"/>
+    <motor gear="1" joint="Neck_y" name="Neck_y"/>
+    <motor gear="1" joint="Neck_z" name="Neck_z"/>
+    <motor gear="1" joint="Head_x" name="Head_x"/>
+    <motor gear="1" joint="Head_y" name="Head_y"/>
+    <motor gear="1" joint="Head_z" name="Head_z"/>
+    <motor gear="1" joint="RightShoulder_x" name="RightShoulder_x"/>
+    <motor gear="1" joint="RightShoulder_y" name="RightShoulder_y"/>
+    <motor gear="1" joint="RightShoulder_z" name="RightShoulder_z"/>
+    <motor gear="1" joint="RightArm_x" name="RightArm_x"/>
+    <motor gear="1" joint="RightArm_y" name="RightArm_y"/>
+    <motor gear="1" joint="RightArm_z" name="RightArm_z"/>
+    <motor gear="1" joint="RightForeArm_z" name="RightForeArm_z"/>
+    <motor gear="1" joint="RightHand_x" name="RightHand_x"/>
+    <motor gear="1" joint="RightHand_y" name="RightHand_y"/>
+    <motor gear="1" joint="RightHand_z" name="RightHand_z"/>
+    <motor gear="1" joint="LeftShoulder_x" name="LeftShoulder_x"/>
+    <motor gear="1" joint="LeftShoulder_y" name="LeftShoulder_y"/>
+    <motor gear="1" joint="LeftShoulder_z" name="LeftShoulder_z"/>
+    <motor gear="1" joint="LeftArm_x" name="LeftArm_x"/>
+    <motor gear="1" joint="LeftArm_y" name="LeftArm_y"/>
+    <motor gear="1" joint="LeftArm_z" name="LeftArm_z"/>
+    <motor gear="1" joint="LeftForeArm_z" name="LeftForeArm_z"/>
+    <motor gear="1" joint="LeftHand_x" name="LeftHand_x"/>
+    <motor gear="1" joint="LeftHand_y" name="LeftHand_y"/>
+    <motor gear="1" joint="LeftHand_z" name="LeftHand_z"/>
+    <motor gear="1" joint="RightUpLeg_x" name="RightUpLeg_x"/>
+    <motor gear="1" joint="RightUpLeg_y" name="RightUpLeg_y"/>
+    <motor gear="1" joint="RightUpLeg_z" name="RightUpLeg_z"/>
+    <motor gear="1" joint="RightLeg_x" name="RightLeg_x"/>
+    <motor gear="1" joint="RightFoot_x" name="RightFoot_x"/>
+    <motor gear="1" joint="RightFoot_y" name="RightFoot_y"/>
+    <motor gear="1" joint="RightFoot_z" name="RightFoot_z"/>
+    <motor gear="1" joint="LeftUpLeg_x" name="LeftUpLeg_x"/>
+    <motor gear="1" joint="LeftUpLeg_y" name="LeftUpLeg_y"/>
+    <motor gear="1" joint="LeftUpLeg_z" name="LeftUpLeg_z"/>
+    <motor gear="1" joint="LeftLeg_x" name="LeftLeg_x"/>
+    <motor gear="1" joint="LeftFoot_x" name="LeftFoot_x"/>
+    <motor gear="1" joint="LeftFoot_y" name="LeftFoot_y"/>
+    <motor gear="1" joint="LeftFoot_z" name="LeftFoot_z"/>
+  </actuator>
 </mujoco>
