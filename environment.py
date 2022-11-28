@@ -11,6 +11,8 @@ class Environment:
         self.viewer = MjViewer(self.sim)
         self.body_names = self.model.geom_names
         self.joint_names = self.model.joint_names
+        self.nq = self.model.nq
+        self.nv = self.model.nv
         self.step = 0
 
         mujoco_py.ignore_mujoco_warnings()
@@ -46,11 +48,11 @@ class Environment:
     def set_target_pos(self, target):
         for ix, data in enumerate(target):
             self.model.body_pos[ix] = data
-            if ix == 21:
+            if ix == 59:
                 break
         self.sim.set_constants()
 
-    def get_pose(self):
+    def pose_generator(self):
         NotImplementedError()
 
     def set_pose(self, pose):
