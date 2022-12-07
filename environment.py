@@ -42,6 +42,9 @@ class Environment:
     def _get_body_xpos(self, body):
         print(f"{body} xpos:", self.sim.data.get_body_xpos(body))
 
+    def _get_joint_qpos_addr(self, joint):
+        return self.sim.model.get_joint_qpos_addr(joint)
+
     def get_target_pos(self):
         NotImplementedError()
 
@@ -56,8 +59,12 @@ class Environment:
         NotImplementedError()
 
     def set_pose(self, pose):
+        # print(self.model.nq)
         self.sim.data.qpos[:self.model.nq] = pose
         #self.sim.data.qpos[self.model.nq] += 1.0
+
+    def remove_static_joints(self):
+        pass
 
     def sim_save(self):
         functions.mj_saveLastXML(
